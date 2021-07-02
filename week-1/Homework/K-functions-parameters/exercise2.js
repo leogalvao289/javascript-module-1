@@ -1,5 +1,12 @@
 // Declare your function first
 
-var result = divide(3, 4);
+function divide(num1, num2) {
+    // Calculate the result of the function and return it
+    return  num1 / num2;
+}
 
+var result = divide(3, 4);
+console.log(result);
+
+var result = divide(12, 4);
 console.log(result);

@@ -1,5 +1,10 @@
 // Write your function here
+function greetingFcn(name, msg) {
+    const greeting = msg + name; 
+    console.log(greeting);
 
-var greeting = createGreeting("Daniel");
+}
 
-console.log(greeting);
+const name = ("Leonardo ")
+const msg= ("Hello my name is ")
+console.log(msg+name)
