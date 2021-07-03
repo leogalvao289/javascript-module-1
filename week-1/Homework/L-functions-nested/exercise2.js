@@ -6,8 +6,8 @@ var mentor5 = "Yohannes";
 
 function myFunction() {
     var str = "Hello";
-    var res = str.toUpperCase() + mentor1.toUpperCase();
+    var res = str.toUpperCase();
     return res;
 }
 
-console.log(res);
+console.log(res(mentor1));

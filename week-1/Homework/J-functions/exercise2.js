@@ -1,6 +1,6 @@
 function triple(number) {
-  let dividir = number ;
-  let result = dividir / 3;
+  let multiplicar = number *3 ;
+  let result = multiplicar ;
   return (result);
 }
 

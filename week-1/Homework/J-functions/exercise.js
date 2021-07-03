@@ -1,6 +1,6 @@
 function halve(number) {
   let dividir = number ;
-  let result = dividir / 2;
+  let result = dividir /2;
   return (result);
 }
 
