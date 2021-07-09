@@ -7,8 +7,15 @@
 */
 
 function negativeOrPositive(number) {
+    if (number==0) {
+      return "Positive"
+    } else if (number >= 5) {
+      return "Positive"
+    } else if (number < 0) {
+      return "Negative"
+    }
+    }
 
-}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
