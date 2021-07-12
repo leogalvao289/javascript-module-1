@@ -6,27 +6,26 @@
   - if number is more or equal to zero, return the word "positive"
 */
 
-function negativeOrPositive(number) {
-    if (number==0) {
-      return "Positive"
-    } else if (number >= 5) {
-      return "Positive"
-    } else if (number < 0) {
-      return "Negative"
-    }
-    }
-
+function negativeOrPositive (number) {
+  if (number >= 0) {
+    return 'Positive'
+  } else if (number >= 5) {
+    return 'Positive'
+  } else if (number < 0) {
+    return 'Negative'
+  }
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
-var number1 = 5;
-var number2 = -1;
-var number3 = 0;
+var number1 = 5
+var number2 = -1
+var number3 = 0
 
-console.log(number1 + " is " + negativeOrPositive(number1));
-console.log(number2 + " is " + negativeOrPositive(number2));
-console.log(number3 + " is " + negativeOrPositive(number3));
+console.log(number1 + ' is ' + negativeOrPositive(number1))
+console.log(number2 + ' is ' + negativeOrPositive(number2))
+console.log(number3 + ' is ' + negativeOrPositive(number3))
 
 /* 
   EXPECTED RESULT

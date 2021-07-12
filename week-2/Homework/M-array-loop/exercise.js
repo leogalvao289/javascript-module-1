@@ -3,20 +3,22 @@
 	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
 */
 
-function days([ ]){
-  
+const daysOfWeek = [
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+  'Sunday'
+]
+
+function daysOf (arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].toUpperCase().startsWith("T")) {
+      console.log (arr[i]);
+    }
+  }
 }
 
-const daysOfWeek = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
-];
-
-
-
-console.log(days(daysOfWeek));
+(daysOf(daysOfWeek));

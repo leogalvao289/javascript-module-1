@@ -7,23 +7,22 @@
 
 */
 
-function studentPassed(grade) {
-  if (grade===49) {
-    return "failed"
+function studentPassed (grade) {
+  if (grade === 49) {
+    return 'failed'
   } else if (grade >= 50) {
-    return "passed"
+    return 'passed'
   } else if (grade >= 0) {
-    return "passed"
+    return 'passed'
   }
-  }
-
+}
 
 /* 
 DO NOT EDIT BELOW THIS LINE
 --------------------------- */
-var grade1 = 49;
-var grade2 = 50;
-var grade3 = 100;
+var grade1 = 49
+var grade2 = 50
+var grade3 = 100
 
 console.log("'" + grade1 + "': " + studentPassed(grade1))
 console.log("'" + grade2 + "': " + studentPassed(grade2))

@@ -5,37 +5,43 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative(number) {
-  if (number < 0 )
-  return true;
+function isNegative (number) {
+  if (number < 0) return true
   else {
-    return false;
+    return false
   }
-} 
+}
 function isBetween5and10 (number) {
-  if (number >= 5 && number <= 10 )
-    return true;
-} 
-
-function isShortName (string) {
- if (string.length <= 6)
-     return true;
-} 
-
-function startsWithD (string) {
- if (string.startsWith("D"))
-    return true;
+  if (number >= 5 && number <= 10) {
+    return true
+  } else {
+    return false
+  }
 }
 
+function isShortName (string) {
+  if (string.length < 7) {
+    return true
+  } else {
+    return false
+  }
+}
+function startsWithD (string) {
+  if (string.startsWith('D')) {
+    return true
+  } else {
+    return false
+  }
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
 
-console.log("Is -10 is a negative number?", isNegative(-10));
-console.log("Is 5 a negative number?", isNegative(5));
-console.log("Is 10 in the range 5-10?", isBetween5and10(10));
-console.log("Is Daniel a short name?", isShortName("Daniel"));
-console.log("Does Daniel start with 'D'?", startsWithD("Daniel"));
+console.log('Is -10 is a negative number?', isNegative(-10))
+console.log('Is 5 a negative number?', isNegative(5))
+console.log('Is 10 in the range 5-10?', isBetween5and10(10))
+console.log('Is Daniel a short name?', isShortName('Daniel'))
+console.log("Does Daniel start with 'D'?", startsWithD('Daniel'))
 
 /* 
   EXPECTED RESULT
