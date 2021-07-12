@@ -1,13 +1,21 @@
-var mentor1 = "Daniel";
-var mentor2 = "Irina";
-var mentor3 = "Mimi";
-var mentor4 = "Rob";
-var mentor5 = "Yohannes";
+var mentor1 = 'Daniel';
+var mentor2 = 'Irina';
+var mentor3 = 'Mimi';
+var mentor4 = 'Rob';
+var mentor5 = 'Yohannes';
 
-function myFunction() {
-    var str = "Hello";
-    var res = str.toUpperCase();
-    return res;
+function myFunction (name) {
+  return name.toUpperCase();
 }
 
-console.log(res(mentor1));
+function createGreeting(name) {
+  let upperCaseName = myFunction(name);
+  const message = `HELLO ${upperCaseName}`;
+  return message;
+}
+
+console.log(createGreeting(mentor1))
+console.log(createGreeting(mentor2))
+console.log(createGreeting(mentor3))
+console.log(createGreeting(mentor4))
+console.log(createGreeting(mentor5))
