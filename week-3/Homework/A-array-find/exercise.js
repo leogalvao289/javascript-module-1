@@ -7,9 +7,11 @@
 
 var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
 
-var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
+const buscar = names.find(item => {
+    return item.startsWith("A") && item.length > 7
+})
 
-console.log(longNameThatStartsWithA);
+console.log(buscar);
 
 /* EXPECTED OUTPUT */
 // "Alexandra"

@@ -7,7 +7,14 @@
   An array with numbers 1-15 has been provided.
 */
 
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+arr.forEach(element)
+
+if (element % 3 === 0) {
+  return 'Fizz'
+} else if (element % 5 === 0) 
+   return 'Buzz'
 
 /* EXPECTED OUTPUT */
 
