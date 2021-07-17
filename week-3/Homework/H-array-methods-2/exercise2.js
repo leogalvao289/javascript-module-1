@@ -7,8 +7,6 @@
   Tip: use the string method .split() and the array method .join()
 */
 
-/* split() entra en el Array 
-   join() .charAt(0).join().toUpperCase();*/ 
 
 function capitalise(str) { 
   return str.split(" ").join().charAt(0).toUpperCase() + str.slice(1);

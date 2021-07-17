@@ -9,7 +9,6 @@ var groupIsOnlyStudents = students.every(item => {
    return item.group
 });
  
-/* funciona tambien con some() */
 if (groupIsOnlyStudents) {
   console.log("The group contains only students");
 } else {
