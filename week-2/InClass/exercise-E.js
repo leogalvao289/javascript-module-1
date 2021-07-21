@@ -1,4 +1,4 @@
-let num = 0;
+let num = 13;
 
 function satisfiesRequirements(num) {
  if (num > 3 && num < 10) {
@@ -8,4 +8,4 @@ function satisfiesRequirements(num) {
  }
  return false;
 }
-satisfiesRequirements(num);
+console.log(satisfiesRequirements(num));

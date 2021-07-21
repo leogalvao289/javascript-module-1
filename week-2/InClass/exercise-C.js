@@ -1,3 +1,5 @@
+let num = 21
+
 function numberChecker(num) {
   if (num > 20) {
     return `${num} is greater than 20`;
@@ -9,3 +11,5 @@ function numberChecker(num) {
     return `${num} isn't even a number :(`;
   }
 }
+
+console.log(numberChecker(num))
