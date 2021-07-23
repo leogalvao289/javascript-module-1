@@ -1,14 +1,17 @@
-let login = "Picapauamarelo"
-
-function getPairs (user) {
-
- if (user.indexOF().toUppercase()  && user.length > 5 && user.length < 10) {
- return "Username valid"; 
- } else if ("admin" || "manager")  {
-    return "Username valido" ;
- } else {
-   return "Username invalid"
- }
-
+function isValidUser (user) {
+  const letter = user[0].toUpperCase();
+  if (
+    letter == 'A' ||
+    letter == 'B' ||
+    letter == 'I' ||
+    letter == 'O' ||
+    (letter == 'U' && user.length > 5 && user.length < 10)
+  ) {
+    return 'Username valid'
+  } else {
+    return 'Username invalid'
+  }
 }
-console.log(getPairs(login))
+
+const user = "123456"
+console.log(isValidUser(user));

@@ -1,7 +1,5 @@
 let nums = [1, 2, 3]
-let doubles = nums.map(function (num) {
-  return num * 2
-})
+let doubles = nums.map( (num) => num * 2)
 
 console.log(doubles)
 
@@ -24,4 +22,9 @@ function magician (yourFunc) {
   return magicOutput
 }
 
-const upperCaseName = miArray 
+function potato(miArray){
+  return miArray.map(name => 'Hola ' + name)
+}
+
+console.log(magician(potato))
+//const upperCaseName = miArray 
