@@ -1,6 +1,9 @@
 function secondMatchesAmy(array) {
-  if ( ) {
+  if (array[1]==="amy" ) {
     return "Second index matched!";
-  }
+  } else {
   return "Second index not matched";
 }
+}
+
+console.log(secondMatchesAmy(["uno", "amy" , "tres"]))

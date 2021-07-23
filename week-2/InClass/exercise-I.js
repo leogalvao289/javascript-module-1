@@ -1,8 +1,10 @@
 
 const fruits = ['banana', 'apple', 'strawberry', 'kiwi', 'fig', 'orange']; 
  
-function replacer(str) {
-    return str.replace("apple" , "raspberry");
-}
+fruits[1] = "raspberry"
 
-console.log(replacer(fruits))
+fruits[4] = "pineapple"
+
+
+
+console.log(fruits)

@@ -7,6 +7,7 @@ function isEven(number) {
 }
 
 for ( let num=5; num <=20; num ++){
-   if (isEven(num));
+   if (isEven(num)){
    console.log("The exponential of " + num + " es " + exponential(num))
+}
 }

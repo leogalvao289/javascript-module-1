@@ -1,5 +1,5 @@
 
-let get = "happy"
+let get = "hi"
 
 function getMood (animo) {
 if (animo === "happy") {

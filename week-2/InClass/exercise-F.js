@@ -1,8 +1,8 @@
-let login = "picapauamarelo"
+let login = "Picapauamarelo"
 
 function getPairs (user) {
 
- if (  user.length > 5 && user.length < 10) {
+ if (user.indexOF().toUppercase()  && user.length > 5 && user.length < 10) {
  return "Username valid"; 
  } else if ("admin" || "manager")  {
     return "Username valido" ;
