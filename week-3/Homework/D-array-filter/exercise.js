@@ -8,7 +8,7 @@
 
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, 'whoops']
 
-var pairsByIndex = pairsByIndexRaw.filter(element => Array.isArray(element) && element.length ==2);
+var pairsByIndex = pairsByIndexRaw.filter(element => Array.isArray(element) && element.length ==1);
 
 
 

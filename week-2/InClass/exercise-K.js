@@ -1,4 +1,4 @@
-function printEstudantName (students) {
+function printStudantName (students) {
   for (let i = 0; i < students.length; i++) {
     console.log("El Estudiante se llama " + students[i])
   }
@@ -6,4 +6,4 @@ function printEstudantName (students) {
 
 let students = ["Leonardo", "Maria Rita" , "Gabryela"];
 
-printEstudantName(students);
+printStudantName(students);

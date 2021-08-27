@@ -1,4 +1,4 @@
-let num = "um"
+let num = 21
 
 function numberChecker(num) {
   if (num > 20) {

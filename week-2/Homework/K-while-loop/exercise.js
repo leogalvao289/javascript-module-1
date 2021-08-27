@@ -6,7 +6,7 @@
 
 */
 
-let n = 10
+let n = 12
 function sumTillNum (num) {
   let arr = []
   let sum = 0
